@@ -23,9 +23,18 @@ public class Ex0 {
 		};
 		
 		greeting.greet();
-//		greeting2.greet();
+		greeting2.greet();
+		
+		
+		/*Method reference */
+		Greeting greeting3 = Ex0::referencedMethod;
+		greeting3.greet();
 	}
 	
+	
+	public static void referencedMethod() {
+		System.out.println("Method reference");
+	}
 	
 	
 }

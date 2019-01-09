@@ -22,9 +22,16 @@ public class Ex1 {
 		System.out.println("Length: " + stringLengthFinder1.findLength("Eclipse"));
 		System.out.println("Length: " + stringLengthFinder2.findLength(null));
 		
+		
+		StringLengthFinder stringLengthFinder3 = Ex1::calculateLength;
+		stringLengthFinder3.findLength("asddg");
+		
 	}
 	
-	
+	public static int calculateLength(String str) {
+		System.out.println("calculateLength is started. ");
+		return str != null ? str.length() : -1;
+	}
 	
 }
 
