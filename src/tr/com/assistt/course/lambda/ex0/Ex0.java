@@ -8,8 +8,11 @@ public class Ex0 {
 
 	private void start() {
 		
+//		int a = 0;
+		
 		Greeting greeting = () -> {
 			System.out.println("Hello 1");
+			//a++;
 		};
 		
 		Greeting greeting2 = new Greeting() {
@@ -19,9 +22,8 @@ public class Ex0 {
 			}
 		};
 		
-		
 		greeting.greet();
-		greeting2.greet();
+//		greeting2.greet();
 	}
 	
 	

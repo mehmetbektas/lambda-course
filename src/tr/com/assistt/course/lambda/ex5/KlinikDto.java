@@ -1,4 +1,4 @@
-package tr.com.assistt.course.lambda.ex99;
+package tr.com.assistt.course.lambda.ex5;
 
 public class KlinikDto {
 
@@ -46,4 +46,12 @@ public class KlinikDto {
 		this.kurumId = kurumId;
 	}
 
+	@Override
+	public String toString() {
+		return "KlinikDto [id=" + id + ", klinikKodu=" + klinikKodu + ", klinikAdi=" + klinikAdi + ", kurumId="
+				+ kurumId + "]";
+	}
+
+	
+	
 }

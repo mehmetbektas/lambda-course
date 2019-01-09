@@ -17,6 +17,7 @@ public class Ex2 {
 		
 		Thread thread2 = new Thread(() -> {
 			System.out.println("Thread 2 is started.");
+			new RuntimeException("Test Exception").printStackTrace();
 		});		
 		
 		thread1.start();
