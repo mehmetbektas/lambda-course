@@ -7,6 +7,11 @@
 	<version>1.0.0</version>
 	<name>lambda-course</name>
 
+	<properties>
+		<downloadSources>true</downloadSources>
+		<downloadJavadocs>true</downloadJavadocs>
+	</properties>
+
 	<dependencies>
 	</dependencies>
 

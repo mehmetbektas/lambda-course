@@ -1,4 +1,4 @@
-package tr.com.assistt.course.lambda.ex3;
+package tr.com.assistt.course.lambda.exercises.ex3;
 
 public interface ProcessViewer {
 

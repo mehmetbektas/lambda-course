@@ -1,9 +1,11 @@
-package tr.com.assistt.course.lambda.ex5;
+package tr.com.assistt.course.lambda.exercises.ex5;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
+
+import tr.com.assistt.course.lambda.common.KlinikDto;
 
 public class Ex5 {
 	
@@ -28,9 +30,6 @@ public class Ex5 {
 		});
 		System.out.println("hasIdFI: "+ hasIdFI);
 
-		int as = 0;
-		as = 1;
-		
 		
 		/*Lambda*/
 		boolean hasIdLambda = klinikList.stream().anyMatch(klinik -> klinik.getId() == -2);
@@ -43,11 +42,11 @@ public class Ex5 {
 	private List<KlinikDto> findKlinik(){
 		List<KlinikDto> klinikDtos = new ArrayList<>();
 		klinikDtos.add(new KlinikDto(1, 21, "Cerrahi", 17));
-		klinikDtos.add(new KlinikDto(2, 42, "Diþ", 16));
+		klinikDtos.add(new KlinikDto(2, 42, "Diï¿½", 16));
 		klinikDtos.add(new KlinikDto(3, 34, "Beyin Sinir", 11));
 		klinikDtos.add(new KlinikDto(4, 21, "Cerrahi", 13));
 		klinikDtos.add(new KlinikDto(5, 21, "Cerrahi", 13));
-		klinikDtos.add(new KlinikDto(6, 10, "Diþ", 13));
+		klinikDtos.add(new KlinikDto(6, 10, "Diï¿½", 13));
 		klinikDtos.add(new KlinikDto(7, 13, "Cerrahi", 6));
 		klinikDtos.add(new KlinikDto(8, 25, "Cerrahi", 5));
 		klinikDtos.add(new KlinikDto(9, 36, "Cerrahi", 3));

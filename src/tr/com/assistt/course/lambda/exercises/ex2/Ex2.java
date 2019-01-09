@@ -1,4 +1,4 @@
-package tr.com.assistt.course.lambda.ex2;
+package tr.com.assistt.course.lambda.exercises.ex2;
 
 public class Ex2 {
 

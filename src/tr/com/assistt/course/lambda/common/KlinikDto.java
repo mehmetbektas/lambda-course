@@ -1,4 +1,4 @@
-package tr.com.assistt.course.lambda.ex5;
+package tr.com.assistt.course.lambda.common;
 
 public class KlinikDto {
 
